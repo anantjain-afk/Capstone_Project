@@ -1,13 +1,20 @@
 body{
     background-color: #ECF6FE;
+    width: 100vw;
 }
+
 .navbar{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid black;
-    padding: 0;
+     border-bottom: 1px solid black;
+    padding: 0; 
     margin: 0;
 
+}
+.line{
+    width: 100vw;
+    height: 2px;
+    background-color: black;
 }
 
 .pagelinks{
@@ -196,4 +203,45 @@ h3,h6{
 }
 h6{
     font-size: large;
+}
+@media (max-width:320px){
+
+    html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    body{
+        margin: 0px;
+        width: 100vw;
+    }
+
+    #logo-name{
+        font-size: 17px;
+    }
+    .pagelinks a{
+        font-size: 13px;
+
+
+    }
+    .pagelinks{
+        gap: 5px;
+        justify-content: flex-end;
+        margin-right: 2px;
+    }
+    .navbar{
+        width: 100vw;
+        justify-content: space-between;
+        
+    }
+    .main-text{
+        font-size: 40px;
+        word-spacing: 10px;
+
+    }
+    .main-image{
+        width: 100vw;
+    }
+
 }
