@@ -22,6 +22,7 @@ body{
    justify-content: right;
    gap: 30px;
    align-items: center;
+   margin-right: 10px;
 }
 .pagelinks a{
     color: #381664;
@@ -204,7 +205,7 @@ h3,h6{
 h6{
     font-size: large;
 }
-@media (max-width:320px){
+@media (max-width:425px){
 
     html {
         margin: 0;
@@ -218,7 +219,7 @@ h6{
     }
 
     #logo-name{
-        font-size: 17px;
+        font-size: 12px;
     }
     .pagelinks a{
         font-size: 13px;
@@ -240,8 +241,126 @@ h6{
         word-spacing: 10px;
 
     }
-    .main-image{
+    .main-image img{
+        width: 92%;
+        display: flex;
+        
+    
+
+    }
+    .smaller-pages{
+        margin-top: 30px;
+    }
+    .smaller-img{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .smaller-img img{
+        width: 100%;
+    }
+    .projects{
+        width: 80%;
+    }
+    
+    .text-portfolio{
+        font-size: 20px;
+        word-spacing: 15px;
+
+        
+    }
+    .portfolio{
+        margin-top: 50px;
+    }
+    .container1{
+        display:block;
+        margin-top: 50px;
+
+
+    }
+    .container1 h1{
+        font-size: larger;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .container1 div{
+        font-size: 15px;
+        text-align: center;
+        margin: 0;
+    }
+    
+
+}
+@media (max-width:768px) and (min-width:426px){
+    #logo-name{
+        font-size: 20px;
+    }
+    .pagelinks a{
+        font-size: 18px;
+
+
+
+    }
+    .pagelinks{
+        gap: 14px;
+        justify-content: flex-end;
+        margin-right: 10px;
+    }
+    .navbar{
         width: 100vw;
+        justify-content: space-between;
+        
+    }
+    .main-text{
+        font-size: 3rem;
+        word-spacing: 10px;
+
+    }
+    .main-image img{
+        width: 92%;
+        display: flex;
+        
+    
+
+    }
+    .smaller-pages{
+        margin-top: 30px;
+    }
+    .smaller-img{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .smaller-img img{
+        width: 100%;
+    }
+    .projects{
+        width: 80%;
+    }
+    
+    .text-portfolio{
+        font-size: 40px;
+        word-spacing: 15px;
+
+        
+    }
+    .portfolio{
+        margin-top: 50px;
+    }
+    .container1{
+        margin-top: 50px;
+    }
+    .container1 h1{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+    .container1 div{
+        font-size: 15px;
+        text-align: center;
+        margin-right: 20px;
     }
 
 }
