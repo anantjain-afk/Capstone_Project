@@ -205,6 +205,34 @@ h3,h6{
 h6{
     font-size: large;
 }
+img{
+    transition: transform 0.3s ease;
+}
+img:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px #656161;
+
+}
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+#logo-name:hover{
+    animation: underline 0.3s 1;
+    border-bottom: 4px solid rgb(104, 28, 155);
+}
+@keyframes underline {
+    from{
+        border-bottom: 0px solid rgb(104, 28, 155);
+    }
+    to{
+        border-bottom: 4px solid rgb(104, 28, 155);
+    }
+
+}
 @media (max-width:425px){
 
     html {
